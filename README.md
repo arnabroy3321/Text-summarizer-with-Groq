@@ -25,6 +25,8 @@ Install all required packages with pip:
 ```bash
 pip install pyaudio keyboard requests groq
 
+```
+
 ## 🔑 Groq API Key Setup
 
 You need an API key from [Groq](https://groq.com/):
@@ -44,6 +46,7 @@ You need an API key from [Groq](https://groq.com/):
 
    ```bash
    python your_script.py
+   ```
 
 ## 💦 Sample Output
 
