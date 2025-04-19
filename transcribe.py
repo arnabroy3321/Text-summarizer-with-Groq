@@ -82,7 +82,7 @@ def encode_audio_to_base64(audio_file_path):
 
 def transcribe_audio(audio_file_path):
     """Transcribe audio file using Groq API."""
-    key = "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"
+    key = "YOUR_GROK_API"
     
     # Initialize Groq client
     client = Groq(api_key=key)
@@ -114,7 +114,7 @@ def transcribe_audio(audio_file_path):
 
 def summarize_text(text, model="llama3-70b-8192", summary_length="medium"):
     """Summarize the given text using Groq's LLM API."""
-    key = "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"
+    key = "Your_GROK_API"
     client = Groq(api_key=key)
     
     # Configure summary length
